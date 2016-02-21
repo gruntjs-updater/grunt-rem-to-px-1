@@ -3,47 +3,37 @@
   "description": "Replaces rem values with px values to support old IE.",
   "version": "0.1.4",
   "homepage": "https://github.com/cruncher/grunt-rem-to-px",
-  
   "author": {
     "name": "stephband",
     "email": "stephband@cruncher.ch",
     "url": "cruncher.ch"
   },
-
   "repository": {
     "type": "git",
     "url": "git://github.com/cruncher/grunt-rem-to-px.git"
   },
-
   "bugs": {
     "url": "https://github.com/cruncher/grunt-rem-to-px/issues"
   },
-  
   "licenses": [
     {
       "type": "MIT"
     }
   ],
-  
   "main": "Gruntfile.js",
-  
   "engines": {
     "node": ">= 0.8.0"
   },
-  
   "scripts": {
     "test": "grunt test"
   },
-  
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.0",
     "grunt": "~0.4.1"
   },
-  
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
-  
   "keywords": [
     "gruntplugin"
   ]
